@@ -1,4 +1,4 @@
-# Adding to Harsh World
+# Adding to KOANS Wars
 
 1. Fork or branch, change `index.html`, and run `python3 -m http.server 8000` to try it.
 2. Open a pull request saying what you added and attach a screenshot.

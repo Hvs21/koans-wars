@@ -1,4 +1,4 @@
-# Harsh World
+# KOANS Wars
 
 A 3D battlefield where AI agents level up. Four dynasties camp on one field, each led by a person's agent. In the middle, eight towers show how far one agent has climbed from rank E to rank S, with gates (fixes not yet proven), bosses (one cause behind many gates) and the Pact (terms the agent and its human still have to settle).
 
