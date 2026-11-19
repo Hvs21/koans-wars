@@ -1,0 +1,513 @@
+{
+ "_note": "MADE-UP SAMPLE DATA. Replace this file with your own agent's state.",
+ "run": 1,
+ "reviewed_at": "Sample",
+ "verdict": "Sample verdict. Replace state.json with your own agent's state.",
+ "level": {
+  "cleared": 24,
+  "total": 48,
+  "rank": "C"
+ },
+ "target": {
+  "what": "Sample goal: reach rank S in every tower",
+  "by": "Someday"
+ },
+ "parts": [
+  {
+   "id": "identity",
+   "name": "Identity",
+   "layer": "Sample",
+   "question": "Who is the person",
+   "rank": "B",
+   "score": "Sample score",
+   "gates": [
+    {
+     "rank": "E",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "D",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "C",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "B",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "A",
+     "met": false,
+     "proof": "Sample: not yet"
+    },
+    {
+     "rank": "S",
+     "met": false,
+     "proof": "Sample: not yet"
+    }
+   ],
+   "next": "Sample next step",
+   "waits_on": "harsh"
+  },
+  {
+   "id": "becoming",
+   "name": "Becoming",
+   "layer": "Sample",
+   "question": "Who they want to be",
+   "rank": "D",
+   "score": "Sample score",
+   "gates": [
+    {
+     "rank": "E",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "D",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "C",
+     "met": false,
+     "proof": "Sample: not yet"
+    },
+    {
+     "rank": "B",
+     "met": false,
+     "proof": "Sample: not yet"
+    },
+    {
+     "rank": "A",
+     "met": false,
+     "proof": "Sample: not yet"
+    },
+    {
+     "rank": "S",
+     "met": false,
+     "proof": "Sample: not yet"
+    }
+   ],
+   "next": "Sample next step",
+   "waits_on": "harsh"
+  },
+  {
+   "id": "voice",
+   "name": "Voice",
+   "layer": "Sample",
+   "question": "How they sound",
+   "rank": "A",
+   "score": "Sample score",
+   "gates": [
+    {
+     "rank": "E",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "D",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "C",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "B",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "A",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "S",
+     "met": false,
+     "proof": "Sample: not yet"
+    }
+   ],
+   "next": "Sample next step",
+   "waits_on": "ai"
+  },
+  {
+   "id": "people",
+   "name": "People",
+   "layer": "Sample",
+   "question": "Who they know",
+   "rank": "C",
+   "score": "Sample score",
+   "gates": [
+    {
+     "rank": "E",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "D",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "C",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "B",
+     "met": false,
+     "proof": "Sample: not yet"
+    },
+    {
+     "rank": "A",
+     "met": false,
+     "proof": "Sample: not yet"
+    },
+    {
+     "rank": "S",
+     "met": false,
+     "proof": "Sample: not yet"
+    }
+   ],
+   "next": "Sample next step",
+   "waits_on": "ai"
+  },
+  {
+   "id": "judgment",
+   "name": "Judgment",
+   "layer": "Sample",
+   "question": "How they decide",
+   "rank": "E",
+   "score": "Sample score",
+   "gates": [
+    {
+     "rank": "E",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "D",
+     "met": false,
+     "proof": "Sample: not yet"
+    },
+    {
+     "rank": "C",
+     "met": false,
+     "proof": "Sample: not yet"
+    },
+    {
+     "rank": "B",
+     "met": false,
+     "proof": "Sample: not yet"
+    },
+    {
+     "rank": "A",
+     "met": false,
+     "proof": "Sample: not yet"
+    },
+    {
+     "rank": "S",
+     "met": false,
+     "proof": "Sample: not yet"
+    }
+   ],
+   "next": "Sample next step",
+   "waits_on": "ai"
+  },
+  {
+   "id": "behaviour",
+   "name": "Behaviour",
+   "layer": "Sample",
+   "question": "Their habits",
+   "rank": "C",
+   "score": "Sample score",
+   "gates": [
+    {
+     "rank": "E",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "D",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "C",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "B",
+     "met": false,
+     "proof": "Sample: not yet"
+    },
+    {
+     "rank": "A",
+     "met": false,
+     "proof": "Sample: not yet"
+    },
+    {
+     "rank": "S",
+     "met": false,
+     "proof": "Sample: not yet"
+    }
+   ],
+   "next": "Sample next step",
+   "waits_on": "ai"
+  },
+  {
+   "id": "world",
+   "name": "World",
+   "layer": "Sample",
+   "question": "What is going on around them",
+   "rank": "B",
+   "score": "Sample score",
+   "gates": [
+    {
+     "rank": "E",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "D",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "C",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "B",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "A",
+     "met": false,
+     "proof": "Sample: not yet"
+    },
+    {
+     "rank": "S",
+     "met": false,
+     "proof": "Sample: not yet"
+    }
+   ],
+   "next": "Sample next step",
+   "waits_on": "harsh"
+  },
+  {
+   "id": "memory",
+   "name": "Memory",
+   "layer": "Sample",
+   "question": "What happened before",
+   "rank": "D",
+   "score": "Sample score",
+   "gates": [
+    {
+     "rank": "E",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "D",
+     "met": true,
+     "proof": "Sample: cleared"
+    },
+    {
+     "rank": "C",
+     "met": false,
+     "proof": "Sample: not yet"
+    },
+    {
+     "rank": "B",
+     "met": false,
+     "proof": "Sample: not yet"
+    },
+    {
+     "rank": "A",
+     "met": false,
+     "proof": "Sample: not yet"
+    },
+    {
+     "rank": "S",
+     "met": false,
+     "proof": "Sample: not yet"
+    }
+   ],
+   "next": "Sample next step",
+   "waits_on": "harsh"
+  }
+ ],
+ "gates_open": [
+  {
+   "id": "G1",
+   "date": "Sample",
+   "part": "becoming",
+   "title": "Sample gate 1",
+   "proof_needed": "Sample proof",
+   "age_days": 1,
+   "status": "open",
+   "seen": "Nothing yet"
+  },
+  {
+   "id": "G2",
+   "date": "Sample",
+   "part": "voice",
+   "title": "Sample gate 2",
+   "proof_needed": "Sample proof",
+   "age_days": 2,
+   "status": "open",
+   "seen": "Nothing yet"
+  },
+  {
+   "id": "G3",
+   "date": "Sample",
+   "part": "people",
+   "title": "Sample gate 3",
+   "proof_needed": "Sample proof",
+   "age_days": 3,
+   "status": "open",
+   "seen": "Nothing yet"
+  },
+  {
+   "id": "G4",
+   "date": "Sample",
+   "part": "judgment",
+   "title": "Sample gate 4",
+   "proof_needed": "Sample proof",
+   "age_days": 4,
+   "status": "open",
+   "seen": "Nothing yet"
+  },
+  {
+   "id": "G5",
+   "date": "Sample",
+   "part": "behaviour",
+   "title": "Sample gate 5",
+   "proof_needed": "Sample proof",
+   "age_days": 5,
+   "status": "open",
+   "seen": "Nothing yet"
+  },
+  {
+   "id": "G6",
+   "date": "Sample",
+   "part": "world",
+   "title": "Sample gate 6",
+   "proof_needed": "Sample proof",
+   "age_days": 6,
+   "status": "open",
+   "seen": "Nothing yet"
+  },
+  {
+   "id": "G7",
+   "date": "Sample",
+   "part": "memory",
+   "title": "Sample gate 7",
+   "proof_needed": "Sample proof",
+   "age_days": 7,
+   "status": "open",
+   "seen": "Nothing yet"
+  },
+  {
+   "id": "G8",
+   "date": "Sample",
+   "part": "identity",
+   "title": "Sample gate 8",
+   "proof_needed": "Sample proof",
+   "age_days": 8,
+   "status": "open",
+   "seen": "Nothing yet"
+  }
+ ],
+ "bosses": [
+  {
+   "cause": "Sample boss 1",
+   "gates": [
+    "G1",
+    "G2",
+    "G3"
+   ],
+   "fix": "Sample fix"
+  },
+  {
+   "cause": "Sample boss 2",
+   "gates": [
+    "G3",
+    "G4",
+    "G5"
+   ],
+   "fix": "Sample fix"
+  }
+ ],
+ "penalties": [
+  {
+   "what": "Sample penalty",
+   "cause": "Sample cause"
+  }
+ ],
+ "pattern": [
+  {
+   "step": "Every miss becomes a gate",
+   "count": "Sample"
+  },
+  {
+   "step": "A gate closes on proof",
+   "count": "Sample"
+  }
+ ],
+ "quests": {
+  "harsh": [
+   {
+    "id": "H1",
+    "title": "Sample quest for the human",
+    "minutes": 3,
+    "unlocks": "Sample reward",
+    "part": "voice"
+   }
+  ],
+  "ai": [
+   {
+    "id": "A1",
+    "title": "Sample quest",
+    "proof": "Sample proof",
+    "part": "memory"
+   },
+   {
+    "id": "A2",
+    "title": "Sample quest",
+    "proof": "Sample proof",
+    "part": "judgment"
+   }
+  ]
+ },
+ "negotiations": [
+  {
+   "id": "N1",
+   "topic": "Sample term",
+   "gap": "Sample gap",
+   "ai_position": "What the agent does (sample)",
+   "harsh_position": "What the human said (sample)",
+   "proposal": "Sample terms",
+   "ai_gives": "Sample",
+   "harsh_gives": "Sample",
+   "options": [
+    "Option A",
+    "Option B"
+   ],
+   "status": "open"
+  }
+ ]
+}
